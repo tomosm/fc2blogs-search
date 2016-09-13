@@ -109,6 +109,7 @@ composer.phar
 ## APP
 public/build
 **/conf/database.php
+!test/**/conf/database.php
 **/docs/cron/*
 !**/docs/cron/*.tmp
 **/phpspec
