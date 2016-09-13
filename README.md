@@ -45,19 +45,21 @@ PHP Version 5.5+
 1. 全ファイルを任意の場所に配備 ex) /tmp/exam0098/
 2. MySQL にテーブル(docs/sql/ddl/tables.ddl)を作成
 3. セットアップスクリプト(./bin/setup.sh)を実行する
+```
 ex) $ /bin/bash /tmp/exam0098/bin/setup.sh
 **スクリプト実行後の入力内容は以下を参考に環境に合わせて入力する**
 セットアップを開始します。 (Y/n) >> y
-\1. WEB 設定
+1. WEB 設定
 公開ディレクトリを絶対パスでを入力してください >> /home/exam0098/public_html
 ...
-\2. MySQL 設定
+2. MySQL 設定
 HOST を入力してください >> 127.0.0.1
 DB NAME を入力してください >> exam0098
 USER を入力してください >> exam0098
 PASSWORD を入力してください >> xxxx
 ...
 設定は完了しました。
+```
 
 ## Licence
 
