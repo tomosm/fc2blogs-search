@@ -1,0 +1,70 @@
+/* ---------------------
+    共通スタイル
+
+    - common setting
+    - main
+--------------------- */
+
+/* =====================
+  common setting
+===================== */
+body {
+    font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+}
+
+body {
+    width: 100%;
+    min-width: 700px;
+    margin: 0 auto;
+    font-size: 0.75em;
+}
+
+.label {
+    width: 100px;
+    display: inline-block;
+}
+
+.label.small {
+    font-size: 0.75em;
+}
+
+input {
+    width: 140px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #EEE;
+    color: #000;
+    border-style: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #333;
+    color: #FFF;
+}
+
+button:focus {
+    outline: 0;
+}
+
+/* =====================
+  main
+===================== */
+section {
+    padding: 10px 14px;
+}
+
+section {
+    padding: 10px 14px;
+}
+
+section h1 {
+    font-size: 1.5em;
+}
+
+section h2 {
+    font-size: 1.125em;
+}

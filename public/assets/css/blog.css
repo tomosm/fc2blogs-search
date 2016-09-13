@@ -1,0 +1,87 @@
+/* ---------------------
+    ブログ画面用スタイル
+
+    - section
+--------------------- */
+
+/* =====================
+  section
+===================== */
+
+/*  section > 検索条件
+------------------------*/
+section input.right-space {
+    margin-right: 18px;
+}
+
+section button {
+    margin: 0 1px 0 0;
+}
+
+section .criteria div {
+    margin: 9px 0;
+}
+
+section .criteria {
+    padding: 9px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 700px;
+}
+
+section .title {
+    margin-bottom: 9px;
+}
+
+/*  section > 検索結果
+------------------------*/
+.table {
+    margin: 9px 0;
+    box-sizing: border-box;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+.table th {
+    font-weight: bold;
+    background: #333;
+    color: #FFF;
+}
+
+.table th.date {
+    width: 100px;
+}
+
+.table th.url {
+    width: 150px;
+}
+
+.table th.title {
+    width: 150px;
+}
+
+.table th.description {
+    width: auto;
+    min-width: 270px;
+}
+
+.table th,
+.table td {
+    text-align: left;
+    padding: 9px;
+    box-sizing: border-box;
+}
+
+.table tr {
+    box-sizing: border-box;
+    border-bottom: 1px solid #EEE;
+}
+
+.table tr:nth-child(2n) {
+    background: #EEE;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:cc="http://web.resource.org/cc/" xml:lang="ja">
+<channel rdf:about="http://xxx.xxx/xxx.rdf">
+<title>新着記事</title>
+<link>http://xxx.xxx/</link>
+<description>新着記事一覧</description>
+<dc:language>ja</dc:language>
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://xxx.xxx/blog-entry-0.html" />
+</rdf:Seq>
+<item rdf:about="http://xxx.xxx/blog-entry-0.html">
+<link>http://xxx.xxx/blog-entry-0.html</link>
+<title> test </title>
+<description> test desc </description>
+<dc:subject> test subject </dc:subject>
+<dc:date>2016-01-01T00:00:00+09:00</dc:date>
+<dc:creator> test </dc:creator>
+<dc:publisher>test</dc:publisher>
+</item>
+</items>
+</channel>
+</rdf:RDF>
