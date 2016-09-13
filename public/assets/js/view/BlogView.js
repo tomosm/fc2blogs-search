@@ -232,6 +232,9 @@ EXAM0098.view || (EXAM0098.view = {});
 
         self.tBodyEl.appendChild(tr);
       });
+
+      // 件数を表示
+      self.el.getElementsByClassName("data-count")[0].textContent = (model.totalCount+ "件");
     }, this);
 
     this.pagerView.on('first last next prev page', this._onSearch.bind(this));
