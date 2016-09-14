@@ -1,9 +1,9 @@
-課題
-===
+Assignment
+==========
 
-FC2 BLOG の新着情報 RSS(http://blog.fc2.com/newentry.rdf) 検索システム
+[FC2 Blog RSS Search System](http://fc2blogs-search.esy.es/)
 
-## 説明
+## Description
 
 - cron により5分に一度、FC2 BLOG の新着情報 RSS(http://blog.fc2.com/newentry.rdf) を取得し、MySQLに保存する
 - Web ページ上で指定した検索条件に一致したブログの一覧を表示する
@@ -18,8 +18,13 @@ FC2 BLOG の新着情報 RSS(http://blog.fc2.com/newentry.rdf) 検索システ�
 - **フレームワークは使用不可**
 - **mod_rewrite は使用不可**
 
-## 要件
-### データベース・サーバー
+## Demo
+
+http://fc2blogs-search.esy.es/
+![Demo](./images/demo.gif "Demo")
+
+## Requirement
+### Database
 
 - MySQL 5.5+
 
@@ -33,18 +38,18 @@ PHP Version 5.5+
 
 - [Mocha](https://mochajs.org/)
 
-### ウェブブラウザ
+### Web Browser
 
-- Firefox - 最新バージョン
-- Chrome - 最新バージョン
-- Safari - 最新バージョン
+- Firefox - Latest Version
+- Chrome - Latest Version
+- Safari - Latest Version
 - Internet Explorer - IE 9+
 
-## インストール
+## Install
 
-1. 全ファイルを任意の場所に配備 ex) /tmp/exam0098/
-2. MySQL にテーブル(docs/sql/ddl/tables.ddl)を作成
-3. セットアップスクリプト(./bin/setup.sh)を実行する
+1. deploy all files to a certain directory ex) /tmp/exam0098/
+2. create tables with docs/sql/ddl/tables.ddl
+3. run ./bin/setup.sh
 ```
 ex) $ /bin/bash /tmp/exam0098/bin/setup.sh
 **スクリプト実行後の入力内容は以下を参考に環境に合わせて入力する**
@@ -67,4 +72,4 @@ PASSWORD を入力してください >> xxxx
 
 ## Author
 
-[Tomonori Murakami]
+[tomosm](https://github.com/tomosm)
