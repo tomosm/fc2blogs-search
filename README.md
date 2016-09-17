@@ -5,6 +5,12 @@ Assignment
 
 ## Description
 
+### Prerequirement
+- Built within 1 week
+- **Any frameworks are prohibited**
+- **The mod_rewrite is prohibited**
+
+### Required Function
 - cron により5分に一度、FC2 BLOG の新着情報 RSS(http://blog.fc2.com/newentry.rdf) を取得し、MySQLに保存する
 - Web ページ上で指定した検索条件に一致したブログの一覧を表示する
 - 検索条件は、日付、URL、ユーザー名、サーバー番号、エントリーNo.
@@ -14,9 +20,6 @@ Assignment
 - エントリーNo.の検索条件は「エントリーNo.が○○以上」という指定を可能にする
 - 一度指定した検索条件は Cookie に保存し、次回の訪問時にフォーム内に表示されるようにする
 - MySQL に保存したデータは、2週間以上古いデータは自動削除する
-- フレームワークは使用しない
-- **フレームワークは使用不可**
-- **mod_rewrite は使用不可**
 
 ## Demo
 
