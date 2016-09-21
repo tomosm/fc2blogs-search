@@ -4,9 +4,16 @@
         processIsolation="false"
         verbose="true"
         strict="false"
-        colors="true">
+        colors="true"
+        backupGlobals="false"
+        backupStaticAttributes="false"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        stopOnFailure="false"
+        syntaxCheck="false">
     <testsuites>
-        <testsuite name="PHPUnit">
+        <testsuite name="Application Test Suite">
             <!-- テストケースがあるディレクトリを列挙する -->
             <directory>./ut/</directory>
             <directory>./it/</directory>
@@ -29,15 +36,14 @@
     <filter>
         <!-- コードカバレッジ率を計測する対象の指定 -->
         <whitelist>
-            <directory suffix=".php">src</directory>
-            <!-- <file>/path/to/file</file> -->
+            <directory suffix=".php">../../../api</directory>
             <exclude>
-                <file>public/index.php</file>
+                <file>bootstrap.php</file>
             </exclude>
         </whitelist>
         <!-- コードカバレッジ測定対象から除外 -->
         <blacklist>
-            <directory suffix=".php" group="PHPUNIT">vendor</directory>
+            <directory suffix=".php">../../../vendor</directory>
         </blacklist>
     </filter>
 </phpunit>
