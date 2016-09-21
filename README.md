@@ -1,3 +1,5 @@
+[![Analytics](https://ga-beacon.appspot.com/UA-84540030-1/welcome-page)](https://github.com/tomosm/fc2blogs-search)
+
 Assignment
 ==========
 
