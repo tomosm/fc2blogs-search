@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/tomosm/fc2blogs-search.svg?branch=master)](https://travis-ci.org/tomosm/fc2blogs-search)
+[![Coverage Status](https://coveralls.io/repos/github/tomosm/fc2blogs-search/badge.svg)](https://coveralls.io/github/tomosm/fc2blogs-search)
 [![Code Climate](https://codeclimate.com/github/tomosm/fc2blogs-search/badges/gpa.svg)](https://codeclimate.com/github/tomosm/fc2blogs-search)
 [![Analytics](https://ga-beacon.appspot.com/UA-84540030-1/welcome-page)](https://github.com/tomosm/fc2blogs-search)
 
