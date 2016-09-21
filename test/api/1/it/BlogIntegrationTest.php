@@ -126,7 +126,7 @@ class PDOStub extends \PDO
         $this->fetchData = $fetchData;
     }
 
-    public function prepare($statement, array $driver_options = array())
+    public function prepare($statement, $driver_options = array())
     {
         return new PDOStatementStub($statement, $this->fetchData);
     }
@@ -145,7 +145,7 @@ class PDOStatementStub extends \PDOStatement
         $this->fetchData = $fetchData;
     }
 
-    public function execute(array $input_parameters = null)
+    public function execute($input_parameters = null)
     {
         return true;
     }
